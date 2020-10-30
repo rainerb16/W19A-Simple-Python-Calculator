@@ -3,4 +3,5 @@ def divideNumbers(userNumOne, userNumTwo):
     answer = userNumOne / userNumTwo
   except ZeroDivisionError:
     print("Cannot divide by zero")
-  print("Your result: " + str(answer))
+  else:
+    print("Your result: " + str(answer))
